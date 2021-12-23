@@ -21,7 +21,7 @@
             <h3 class="text-center mt-3 mb-4">Formulir Pendaftaran Siswa Baru Sekolah Koding</h3>
         </header>
  
-        <form action="proses-pendaftaran.php" method="POST">
+        <form action="proses-pendaftaran.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="nama">Nama Lengkap: </label>
                 <input type="text" class="form-control" name="nama" placeholder="Nama lengkap..."/>
