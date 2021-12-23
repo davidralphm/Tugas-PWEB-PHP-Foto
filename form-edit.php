@@ -44,7 +44,7 @@ if( mysqli_num_rows($query) < 1 ){
                 <h3 class="text-center mt-3">Formulir Edit Data Siswa</h3>
             </header>
      
-            <form action="proses-edit.php" method="POST">
+            <form action="proses-edit.php" method="POST" enctype="multipart/form-data">
                 <input type="hidden" name="id" value="<?php echo $siswa['id'] ?>" />
      
                 <div class="form-group">
